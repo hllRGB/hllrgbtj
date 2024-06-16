@@ -1,7 +1,7 @@
 // worker.js
 import { connect } from "cloudflare:sockets";
 let password = '8776f2ee-4d6e-4f83-a18e-de421592ead5';
-let proxyIP = '';
+let proxyIP = 'bestproxy.onecf.eu.org';
 // The user name and password do not contain special characters
 // Setting the address will ignore proxyIP
 // Example:  user:pass@host:port  or  host:port
