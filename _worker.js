@@ -1,7 +1,7 @@
 // _worker.js
 import { connect } from "cloudflare:sockets";
 let password = 'auto';
-let proxyIP = '155.248.196.123';
+let proxyIP = 'edgetunnel.anycast.eu.org';
 // The user name and password do not contain special characters
 // Setting the address will ignore proxyIP
 // Example:  user:pass@host:port  or  host:port
