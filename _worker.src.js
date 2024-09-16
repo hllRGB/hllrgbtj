@@ -1,7 +1,7 @@
 // _worker.src.js
 import { connect } from "cloudflare:sockets";
 let password = 'auto';
-let proxyIPqueue = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'cdn.anycast.eu.org'];
+let proxyIPqueue = ['proxy.xxxxxxxx.tk','edgetunnel.anycast.eu.org','ts.hpc.tw','cdn.xn--b6gac.eu.org','cdn-all.xn--b6gac.eu.org','bestproxy.onecf.eu.org'];
 let proxyIP = proxyIPqueue[Math.floor(Math.random() * proxyIPqueue.length)];
 // The user name and password do not contain special characters
 // Setting the address will ignore proxyIP
@@ -34,7 +34,7 @@ let DLS = 8;
 let FileName = 'epeius';
 let BotToken ='';
 let ChatID =''; 
-let proxyhosts = [];//本地代理域名池
+let proxyhosts = ['proxy.xxxxxxxx.tk','edgetunnel.anycast.eu.org','ts.hpc.tw','cdn.xn--b6gac.eu.org','cdn-all.xn--b6gac.eu.org','bestproxy.onecf.eu.org'];//本地代理域名池
 let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
 
 let fakeUserID ;
